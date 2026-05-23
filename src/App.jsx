@@ -9,9 +9,11 @@ import { Blog } from "./components/Blog";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
-const App = () => {
+function App() {
   return (
     <div className="app">
+      <div className="background-glow"></div>
+
       <Navigation />
 
       <main>
@@ -25,6 +27,6 @@ const App = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default App;
