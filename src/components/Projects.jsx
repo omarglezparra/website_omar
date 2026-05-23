@@ -1,35 +1,39 @@
 import React from "react";
 
-const projects = [
-  {
-    title: "Quantum Circuit Visualizer",
-    description:
-      "Interactive visualization of quantum gates and amplitudes.",
-  },
-  {
-    title: "AI RAG Assistant",
-    description:
-      "Retrieval-augmented generation assistant using vector search.",
-  },
-  {
-    title: "Snowflake Analytics Pipeline",
-    description:
-      "Enterprise-scale analytics pipeline architecture.",
-  },
-];
-
 export const Projects = () => {
   return (
-    <section id="projects" className="projects">
-      <h2>Projects</h2>
+    <section id="projects">
+      <h2>Featured Projects</h2>
 
-      <div className="project-grid">
-        {projects.map((project, index) => (
-          <div className="project-card" key={index}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-          </div>
-        ))}
+      <div className="projects-grid">
+
+        <div className="project-card">
+          <h3>Quantum Circuit Visualizer</h3>
+
+          <p>
+            Interactive visualization of quantum gates,
+            amplitudes, and interference patterns.
+          </p>
+        </div>
+
+        <div className="project-card">
+          <h3>AI RAG Assistant</h3>
+
+          <p>
+            Retrieval-augmented generation assistant using
+            vector search and semantic retrieval.
+          </p>
+        </div>
+
+        <div className="project-card">
+          <h3>Cloud Analytics Pipeline</h3>
+
+          <p>
+            Enterprise-scale analytics architecture using
+            Snowflake, Azure, and distributed processing.
+          </p>
+        </div>
+
       </div>
     </section>
   );
