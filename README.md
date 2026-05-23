@@ -1,4 +1,2 @@
-
-
-Using a react template for Frankie's Bakery 
-
+Hello Welcome to my quantum computing and AI Portfoliio!
+n
