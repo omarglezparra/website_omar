@@ -188,7 +188,7 @@ button,
 }
 
 .nav-logo::after {
-  content: "Quantum + AI";
+  content: "Quantum";
   display: block;
   color: #00d8ff;
   font-size: 0.88rem;
