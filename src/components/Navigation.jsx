@@ -3,17 +3,15 @@ export const Navigation = () => {
   return (
     <nav className="navigation">
 
-      <div className="nav-logo">
-        Omar | AI & Quantum Systems
-      </div>
+      <div className="nav-logo">Omar Gonzalez</div>
 
       <ul className="nav-links">
         <li>
-          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
         </li>
 
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#certifications">Certification</a>
         </li>
 
         <li>

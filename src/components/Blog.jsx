@@ -1,27 +1,33 @@
 import React from "react";
 
+const topics = [
+  "Bell states and quantum entanglement",
+  "How Hadamard gates create superposition",
+  "AI agents and retrieval-augmented generation",
+];
+
 export const Blog = () => {
   return (
-    <section id="blog">
-      <h2>Research & Writing</h2>
+    <section id="blog" className="writing">
+      <div className="section-kicker">Research Direction</div>
+      <div className="section-intro">
+        <h2>Learning in public with technical clarity.</h2>
+        <p>
+          I am documenting the concepts behind my projects so recruiters and
+          engineering teams can see not only what I built, but how I think
+          through complex technical material.
+        </p>
+      </div>
 
-      <p>
-        Articles exploring quantum algorithms,
-        AI systems, cloud architectures,
-        and the future of computation.
-      </p>
-
-      <br />
-
-      <p>
-        Coming soon:
-      </p>
-
-      <ul>
-        <li>Understanding Quantum Interference</li>
-        <li>How AI Agents Actually Work</li>
-        <li>Quantum Computing vs Classical Computing</li>
-      </ul>
+      <div className="writing-list">
+        {topics.map((topic, index) => (
+          <article key={topic}>
+            <span>{String(index + 1).padStart(2, "0")}</span>
+            <h3>{topic}</h3>
+            <p>Draft research note planned for this portfolio.</p>
+          </article>
+        ))}
+      </div>
     </section>
   );
 };
