@@ -14,8 +14,8 @@ const credentials = [
   {
     image: itesmLogo,
     alt: "Tecnologico de Monterrey logo",
-    title: "Mechatronics Engineer",
-    text: "Engineering background from Tecnologico de Monterrey.",
+    title: "Engineering Bachelor's Degree",
+    text: "Bachelor's degree in Mechatronics Engineering from Tecnologico de Monterrey.",
   },
   {
     image: cppBadge,

@@ -27,36 +27,42 @@ export const PricingProject = () => {
           <p className="project-eyebrow">Project Context</p>
           <h2>Pricing strategy framed as an optimization problem.</h2>
           <p>
-            Pricing decisions often involve many possible combinations:
-            customer segments, margin targets, demand response, competitive
-            positioning, and business constraints. This project is designed to
-            organize those tradeoffs into a structured optimization workflow
-            that can later support models, datasets, and simulation logic.
+            Pricing decisions involve many possible combinations: customer
+            segments, margin targets, demand response, competitive positioning,
+            and business constraints. This project frames pricing as a
+            structured optimization problem where each scenario can be compared
+            and evaluated more systematically.
           </p>
         </div>
 
         <div className="feature-grid">
           <article className="feature-panel">
-            <h3>Pricing Optimization</h3>
+            <h3>Problem Statement</h3>
             <p>
-              Builds toward a workflow for comparing pricing scenarios and
-              evaluating tradeoffs between revenue, margin, and market response.
+              Pricing teams need to choose prices that balance revenue, margin,
+              demand, and customer response. The challenge is that every pricing
+              decision creates multiple tradeoffs, and evaluating all possible
+              scenarios manually can be slow, inconsistent, and difficult to
+              scale.
             </p>
           </article>
 
           <article className="feature-panel">
-            <h3>Qubit-Based Thinking</h3>
+            <h3>Possible Solution</h3>
             <p>
-              Uses quantum-inspired concepts to think about combinations,
-              states, constraints, and optimization paths in a business context.
+              Build an optimization workflow that models pricing scenarios as
+              possible states, applies constraints such as margin targets and
+              demand assumptions, and compares outcomes to identify stronger
+              pricing recommendations.
             </p>
           </article>
 
           <article className="feature-panel">
-            <h3>Decision Support</h3>
+            <h3>Quantum-Inspired Angle</h3>
             <p>
-              Focuses on turning pricing analysis into clearer recommendations
-              for strategy, profitability, and business planning.
+              Uses qubit-based thinking to reason about combinations,
+              constraints, and optimization paths, connecting quantum computing
+              concepts to a practical business problem.
             </p>
           </article>
         </div>
