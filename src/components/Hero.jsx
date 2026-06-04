@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <section className="hero simple-hero">
       <div className="hero-content">
-        <p className="eyebrow">Quantum Computing + AI Portfolio</p>
+        <p className="eyebrow">Quantum Computing Portfolio</p>
 
         <h1>Omar Gonzalez</h1>
 
